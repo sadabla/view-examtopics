@@ -33,9 +33,9 @@ docker rm examtopics-downloader
 
 * Now copy the file `saved-links.txt` into ChatGPT using the prompt below.
 
-## ChatGPT prompt (English)
+## ChatGPT prompt.
 
-I have a file containing many URLs (`saved-links.txt`).
+I have a file containing many URLs saved-links.txt
 Generate a single HTML file with clickable links. Each link must open in a new tab (`target="_blank"`).
 
 Display format:
