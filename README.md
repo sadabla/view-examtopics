@@ -63,6 +63,7 @@ Continue this pattern for all topics and questions found in the file.
 
 * Save the HTML file
 * Install the browser extension Tampermonkey (you must manually grant permission to run userscripts)
+https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=nl
 * Then install this Tampermonkey script:
   [https://greasyfork.org/en/scripts/532822-examtopics-popup-remover-and-right-click-enabler](https://greasyfork.org/en/scripts/532822-examtopics-popup-remover-and-right-click-enabler)
 * You can now open questions from the HTML file by clicking them without popups.
