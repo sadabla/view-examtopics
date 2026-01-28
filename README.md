@@ -1,10 +1,11 @@
-# Explanation
+## Explanation
 
 This guide creates a handy, clickable HTML file from ExamTopics exam questions so you can open questions without popups or warnings.
 It also uses examtopics-downloader: [https://github.com/thatonecodes/examtopics-downloader](https://github.com/thatonecodes/examtopics-downloader)
 
 Why this guide? examtopics-downloader downloads the questions, but they are not shown in a clear overview and the discussion is not visible.
 
+## Downoad the direct links to the questions
 # Preparation
 
 * Debian VM with Docker installed.
@@ -33,7 +34,7 @@ docker rm examtopics-downloader
 
 * Now copy the file `saved-links.txt` into ChatGPT using the prompt below.
 
-## ChatGPT prompt.
+# ChatGPT prompt.
 
 I have a file containing many URLs saved-links.txt
 Generate a single HTML file with clickable links. Each link must open in a new tab (`target="_blank"`).
@@ -59,8 +60,8 @@ Then:
 
 Continue this pattern for all topics and questions found in the file.
 
-# After ChatGPT generates the file
-
+## View the examtopics questions
+After ChatGPT has generated the file:
 * Save the HTML file
 * Install the browser extension Tampermonkey 
 https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=nl
