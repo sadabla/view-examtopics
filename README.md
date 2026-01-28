@@ -60,7 +60,7 @@ Then:
 
 Continue this pattern for all topics and questions found in the file.
 
-### View the examtopics questions
+## View the examtopics questions
 After ChatGPT has generated the file:
 * Save the HTML file
 * Install the browser extension Tampermonkey 
