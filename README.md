@@ -6,11 +6,11 @@ It also uses examtopics-downloader: [https://github.com/thatonecodes/examtopics-
 Why this guide? examtopics-downloader downloads the questions, but they are not shown in a clear overview and the discussion is not visible.
 
 ## Downoad the direct links to the questions
-# Preparation
+### Preparation
 
 * Debian VM with Docker installed.
 
-# Download URLs to questions
+### Download URLs to questions
 
 * If the Docker container has not been pulled yet:
   `docker pull ghcr.io/thatonecodes/examtopics-downloader:latest`
@@ -30,11 +30,11 @@ docker cp examtopics-downloader:/app/saved-links.txt .
 docker rm examtopics-downloader
 ```
 
-# Convert the URL list into a clickable HTML file
+### Convert the URL list into a clickable HTML file
 
 * Now copy the file `saved-links.txt` into ChatGPT using the prompt below.
 
-# ChatGPT prompt.
+### ChatGPT prompt.
 
 I have a file containing many URLs saved-links.txt
 Generate a single HTML file with clickable links. Each link must open in a new tab (`target="_blank"`).
@@ -60,7 +60,7 @@ Then:
 
 Continue this pattern for all topics and questions found in the file.
 
-## View the examtopics questions
+### View the examtopics questions
 After ChatGPT has generated the file:
 * Save the HTML file
 * Install the browser extension Tampermonkey 
