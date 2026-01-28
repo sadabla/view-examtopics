@@ -62,8 +62,9 @@ Continue this pattern for all topics and questions found in the file.
 # After ChatGPT generates the file
 
 * Save the HTML file
-* Install the browser extension Tampermonkey (you must manually grant permission to run userscripts)
+* Install the browser extension Tampermonkey 
 https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=nl
+* Grant the Tampermonkey extension manually permission to run userscripts, via the extension settings
 * Then install this Tampermonkey script:
   [https://greasyfork.org/en/scripts/532822-examtopics-popup-remover-and-right-click-enabler](https://greasyfork.org/en/scripts/532822-examtopics-popup-remover-and-right-click-enabler)
 * You can now open questions from the HTML file by clicking them without popups.
